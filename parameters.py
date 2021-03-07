@@ -1,5 +1,5 @@
 # Root directory for dataset
-dataroot = "../Datasets/sample/resized"
+dataroot = "../Datasets/BestArtworks/resized"
 
 # Number of workers for dataloader
 workers = 2
