@@ -7,6 +7,9 @@ workers = 2
 # Batch size during training
 batch_size = 128
 
+# Number of styles
+n_class = 19
+
 # Spatial size of training images. All images will be resized to this
 #   size using a transformer.
 image_size = 64
