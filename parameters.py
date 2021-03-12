@@ -21,7 +21,7 @@ nc = 3
 nz = 150
 
 # Size of feature maps in generator
-ngf = 64
+ngf = 32
 
 # Size of feature maps in discriminator
 ndf = 64
@@ -30,7 +30,7 @@ ndf = 64
 num_epochs = 150
 
 # Learning rate for optimizers
-lr = 0.001
+lr = 0.0005
 
 # Beta1 hyperparam for Adam optimizers
 beta1 = 0.5
