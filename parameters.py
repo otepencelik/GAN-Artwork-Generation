@@ -1,5 +1,5 @@
 # Root directory for dataset
-dataroot = "../Datasets/BestArtworks/resized"
+dataroot = "../Datasets/wikiart_resized/wikiart/"
 
 # Number of workers for dataloader
 workers = 2
@@ -8,7 +8,7 @@ workers = 2
 batch_size = 128
 
 # Number of styles
-n_class = 19
+n_class = 27
 
 # Spatial size of training images. All images will be resized to this
 #   size using a transformer.
