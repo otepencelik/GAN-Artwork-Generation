@@ -2,10 +2,10 @@
 dataroot = "../Datasets/wikiart_resized/wikiart/"
 
 # Number of workers for dataloader
-workers = 2
+workers = 8
 
 # Batch size during training
-batch_size = 128
+batch_size = 64
 
 # Number of styles
 n_class = 27
@@ -21,16 +21,16 @@ nc = 3
 nz = 150
 
 # Size of feature maps in generator
-ngf = 32
+ngf = 64
 
 # Size of feature maps in discriminator
-ndf = 64
+ndf = 32
 
 # Number of training epochs
 num_epochs = 150
 
 # Learning rate for optimizers
-lr = 0.0005
+lr = 0.0001
 
 # Beta1 hyperparam for Adam optimizers
 beta1 = 0.5
