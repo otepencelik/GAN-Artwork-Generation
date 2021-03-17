@@ -78,29 +78,30 @@ class Discriminator(nn.Module):
             nn.BatchNorm2d(ndf * 8),
             nn.LeakyReLU(0.2, inplace=True),
             # state size. (ndf*8) x 4 x 4
-            nn.Conv2d(ndf * 8, ndf * 8, 4, 1, 0, bias=False),
-            nn.BatchNorm2d(ndf * 8),
-            nn.LeakyReLU(0.2, inplace=True),
+            #nn.Conv2d(ndf * 8, ndf * 8, 4, 1, 0, bias=False),
+            #nn.BatchNorm2d(ndf * 8),
+            #nn.LeakyReLU(0.2, inplace=True),
         )
         
         self.discriminate = nn.Sequential(
-            nn.Linear(ndf * 8, 1),
+            #nn.Linear(ndf * 8, 1),
+            #nn.Sigmoid())
+            nn.Conv2d(ndf * 8, 1, 4, 1, 0, bias=False),
             nn.Sigmoid())
         
         self.classify = nn.Sequential(
-            nn.Linear(ndf * 8, 1024),
-            nn.LeakyReLU(0.2),
-
-            nn.Linear(1024, 512),
-            nn.LeakyReLU(0.2),
-
-            nn.Linear(512, n_class)
+            nn.Conv2d(ndf * 8, n_class, 4, 1, 0, bias=False)
+            #nn.Linear(ndf * 8, 1024),
+            #nn.LeakyReLU(0.2),
+            #nn.Linear(1024, 512),
+            #nn.LeakyReLU(0.2),
+            #nn.Linear(512, n_class)
             # nn.Softmax(dim=1))
             )
 
     def forward(self, input):
         x = self.main(input)
-        x = x.view(x.size(0),-1)
+        #x = x.view(x.size(0),-1)
         d_out = self.discriminate(x)
         c_out = self.classify(x)
         return d_out, c_out
