@@ -4,9 +4,7 @@ This repository contains 3 GAN models to generate realistic artwork paintings. T
 
 ## WikiArt Dataset
 
-The WikiArt dataset can be downloaded from the following link (resized to 64x64):
-
-*insert drive link*
+The WikiArt dataset can be downloaded from [this link](https://drive.google.com/file/d/1uX3rC7a_aRtsQAz8UTCGOiTvO-3b0yXY/view?usp=sharing) (resized to 64x64)
 
 The original WikiArt dataset is contained in [this repo](https://github.com/cs-chan/ArtGAN/tree/master/WikiArt%20Dataset).
 
