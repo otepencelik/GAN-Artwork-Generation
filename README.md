@@ -6,7 +6,7 @@ The WikiArt dataset can be downloaded from the following link (resized to 64x64)
 
 *insert drive link*
 
-The original WikiArt dataset is contained in this repo:
+The original WikiArt dataset is contained in [this repo](https://github.com/cs-chan/ArtGAN/tree/master/WikiArt%20Dataset).
 
 The models in this repository are the implementations of the following papers:
 
