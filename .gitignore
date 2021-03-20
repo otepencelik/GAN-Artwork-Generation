@@ -5,3 +5,5 @@ images
 images-C_dcgan
 .jovianrc
 images*
+images_256
+images_64x64_initial_results
