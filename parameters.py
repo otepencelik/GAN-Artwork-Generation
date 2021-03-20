@@ -1,5 +1,5 @@
 # Root directory for dataset
-dataroot = "Datasets/wikiart_resized/wikiart/"
+dataroot = "../Datasets/wikiart_resized/wikiart/"
 
 # Number of workers for dataloader
 workers = 8
