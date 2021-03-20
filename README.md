@@ -1,4 +1,4 @@
-# Artwork Generation Using Deep Convolutional GAN, Conditional GAN and Creative GAN
+# Artwork Generation Using Deep Convolutional GAN, Conditional GAN and Creative Adversarial Network
 
 This repository contains 3 GAN models to generate realistic artwork paintings. The models are implemented using PyTorch.
 
