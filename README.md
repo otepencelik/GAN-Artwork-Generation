@@ -1,13 +1,16 @@
 # Artwork Generation Using Deep Convolutional GAN, Conditional GAN and Creative GAN
 
-This repository contains 3 GAN models to generate realistic artwork paintings.
+This repository contains 3 GAN models to generate realistic artwork paintings. The models are implemented using PyTorch.
 
-The WikiArt dataset can be downloaded from the following link (original images should be resized to 64x64):
-https://github.com/cs-chan/ArtGAN/tree/master/WikiArt%20Dataset
+## WikiArt Dataset
+
+The WikiArt dataset can be downloaded from the following link (resized to 64x64):
 
 *insert drive link*
 
 The original WikiArt dataset is contained in [this repo](https://github.com/cs-chan/ArtGAN/tree/master/WikiArt%20Dataset).
+
+## References
 
 The models in this repository are the implementations of the following papers:
 
@@ -17,6 +20,6 @@ The models in this repository are the implementations of the following papers:
 
 * [Creative GAN (CAN) Paper](https://arxiv.org/pdf/1706.07068.pdf): A. Elgammal, B. Liu, M. Elhoseiny, and M. Mazzone, “Can:  Creative adversarial networks,generating  “art”  by  learning  about  styles  and  deviating  from  style  norms,”arXiv preprintarXiv:1706.07068, 2017.
 
-The following PyTorch tutorial was extremely helpful to develop our models:
+[This PyTorch tutorial](https://pytorch.org/tutorials/beginner/dcgan_faces_tutorial.html) was extremely helpful to develop our models
 
-
+## Usage
