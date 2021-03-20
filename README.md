@@ -38,8 +38,8 @@ The CAN architecture aims to generate style-ambiguous (or style-agnostic, 'creat
 
 Three very straight-forward notebooks are available for each of the models. Run each cell of the notebook to train the corresponding architecture and visualize the results.
 
-* DCGAN - Baseline_DCGAN.ipynb
-* CGAN - CGAN.ipynb
-* CAN - CAN.ipynb
+* DCGAN - [Baseline_DCGAN.ipynb](https://github.com/otepencelik/GAN-Artwork-Generation/blob/master/Baseline_DCGAN.ipynb)
+* CGAN - [cGAN.ipynb](https://github.com/otepencelik/GAN-Artwork-Generation/blob/master/cGAN.ipynb)
+* CAN - [CAN.ipynb](https://github.com/otepencelik/GAN-Artwork-Generation/blob/master/CAN.ipynb)
 
 
