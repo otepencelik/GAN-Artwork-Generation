@@ -1,11 +1,11 @@
 # Root directory for dataset
-dataroot = "../Datasets/wikiart_resized/wikiart/"
+dataroot = "Datasets/wikiart_resized/wikiart/"
 
 # Number of workers for dataloader
 workers = 8
 
 # Batch size during training
-batch_size = 64
+batch_size = 128
 
 # Number of styles
 n_class = 27
@@ -27,7 +27,7 @@ ngf = 64
 ndf = 32
 
 # Number of training epochs
-num_epochs = 150
+num_epochs = 75
 
 # Learning rate for optimizers
 lr = 0.0001
