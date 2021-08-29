@@ -20,6 +20,8 @@ The models in this repository are the implementations of the following papers:
 
 [This PyTorch tutorial](https://pytorch.org/tutorials/beginner/dcgan_faces_tutorial.html) was extremely helpful to develop our models.
 
+[Our project paper](https://github.com/otepencelik/GAN-Artwork-Generation/blob/master/Final_Project_Report.pdf) contains more detailed information and explanations about the architectures and results.
+
 ## Models
 
 * DCGAN
